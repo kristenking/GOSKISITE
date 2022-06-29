@@ -39,9 +39,9 @@ header h2 {
 
 .row-content {
     margin: 0;
-    padding: 50px 0;
+    padding: 3.125rem 0;
     border-bottom: 1px ridge;
-    min-height: 200px;
+    min-height: 12.5rem; 
 }
 
 .navbar-dark {
@@ -52,4 +52,12 @@ header h2 {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10ox;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #0a3cc4;
 }
