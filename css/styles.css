@@ -5,6 +5,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.82rem;
     /* identical to box height */
+    background-image: url(".img/carousel_image1.png");
 
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -65,4 +66,12 @@ header h2 {
 
 .table {
     text-transform: none;
+}
+
+.table-light-blue {
+    background-color: #EBF8FB;
+}
+
+.table-light-blue:hover {
+    background-color: lightblue;
 }
