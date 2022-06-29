@@ -2,19 +2,20 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.4rem;
+    line-height: 1.82rem;
     /* identical to box height */
 
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Lobster", cursive, cursive;
+    font-family: "Inter", cursive, cursive;
+    text-transform: none;
 }
 
 h2 {
@@ -60,4 +61,8 @@ header h2 {
 
 .carousel {
     border: solid #0a3cc4;
+}
+
+.table {
+    text-transform: none;
 }
