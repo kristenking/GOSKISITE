@@ -2,19 +2,21 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.4rem;
+    line-height: 1.82rem;
     /* identical to box height */
+    background-image: url(".img/carousel_image1.png");
 
     letter-spacing: 0.22em;
     text-transform: uppercase;
-
+    /* background-color: beige; */
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Lobster", cursive, cursive;
+    font-family: "Inter", cursive, cursive;
+    text-transform: none;
 }
 
 h2 {
@@ -39,9 +41,9 @@ header h2 {
 
 .row-content {
     margin: 0;
-    padding: 50px 0;
+    padding: 3.125rem 0;
     border-bottom: 1px ridge;
-    min-height: 200px;
+    min-height: 12.5rem; 
 }
 
 .navbar-dark {
@@ -52,4 +54,24 @@ header h2 {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10ox;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #0a3cc4;
+}
+
+.table {
+    text-transform: none;
+}
+
+.table-light-blue {
+    background-color: #EBF8FB;
+}
+
+.table-light-blue:hover {
+    background-color: lightblue;
 }
