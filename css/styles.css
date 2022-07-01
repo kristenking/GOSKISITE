@@ -47,6 +47,15 @@ h1 {
     color: #272475;
 }
 
+h2{
+    font-family: "Inter";
+    font-style: normal;
+    letter-spacing: 0.22em;
+
+    color: #272475;
+
+}
+
 h3 {
     font-family: 'Inter';
 font-style: normal;
@@ -54,6 +63,12 @@ font-weight: 400;
 line-height: 48px;
 letter-spacing: 0.22em;
 text-transform: capitalize;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    letter-spacing: 0.1em;
 }
 
 
@@ -113,6 +128,11 @@ text-transform: capitalize;
 
 .carousel {
     border: solid #0a3cc4;
+    border-radius: 30px;
+}
+
+.carousel-inner {
+    border-radius: 30px;
 }
 
 .table {
