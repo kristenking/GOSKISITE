@@ -86,3 +86,20 @@ header h2 {
 .table-light-blue:hover {
     background-color: lightblue;
 }
+
+.card-light-blue {
+    background-color: #EBF8FB;
+}
+
+#questionAccordion {
+    text-transform: none;
+}
+
+.question {
+    color: rgb(36, 33, 33);
+}
+
+.question:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
