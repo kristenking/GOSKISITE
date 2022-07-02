@@ -51,7 +51,7 @@ h2{
     font-family: "Inter";
     font-style: normal;
     letter-spacing: 0.22em;
-
+text-transform: uppercase;
     color: #272475;
 
 }
@@ -162,4 +162,29 @@ p {
 .question:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+.contact {
+    background-color: #246CD2 ;
+}
+.contact h2 {
+    color: #FFFFFF;
+}
+
+.contact ::placeholder{
+    color: #A9A9A9;
+}
+.contact .btn {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+
 }
