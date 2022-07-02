@@ -22,9 +22,7 @@ body {
     margin-left: 100px;
 }
 
-.call-button {
-    align-content: flex-end;
-}
+
 
 .bg {
     position: absolute;
@@ -86,7 +84,7 @@ p {
     
 }
 .herotext{
-    margin-top: 100px;
+    margin-top: 150px;
     width:50%;
     margin-left: auto;
     margin-right: 0;
