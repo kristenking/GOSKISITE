@@ -188,3 +188,21 @@ letter-spacing: 0.08em;
 color: #FFFFFF;
 
 }
+
+footer {
+    height: 100px;
+    background-color: #246CD2;
+    margin-top: 100px;
+
+}
+
+footer .row{
+    align-items: flex-end;
+}
+
+
+i {
+    color: #FFFFFF;
+    margin-top: 40px;
+    inline-size: 35px;
+}
