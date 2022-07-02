@@ -87,7 +87,7 @@ h1 {
 
 .row-content {
     margin: 0;
-    padding: 3.125rem 0;
+    padding: 4rem 0;
     border-bottom: 1px ridge;
     min-height: 12.5rem;
 }
@@ -136,4 +136,9 @@ h1 {
 
 .card, #roundit {
     border-radius: 2rem;
+}
+
+.first-word {
+    padding-bottom: 0.7rem;
+    border-bottom: 3px solid gold;
 }
